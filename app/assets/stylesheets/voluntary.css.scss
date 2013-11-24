@@ -1,0 +1,100 @@
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+
+.volunatary_top_pic{
+	width: 500px;
+	height: 200px;
+
+	h3{ margin-top:-130px;}
+}
+
+
+.voluntary_left_column{
+	.voluntary_left_pic{
+  		width: 220px;
+  		height: 160px;
+ 	}
+ 	.voluntary_right_pic{
+ 	  width: 220px;
+  	  height: 160px;
+ 	}
+
+ 	h5{margin-left:-100px;}
+}
+
+#header_voluntary{margin-left:-500px;}
+
+.for_school_admin{
+	width:450px;
+	height: 200px;
+	margin-left:15px;
+	margin-top:-8px;
+}
+
+.for_others_volunteers{
+	width:450px;
+	height: 200px;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+.voluntary_group{margin-top:-67px;}
+
+    #fill_free{margin-top:-600x;}
+
+
+/* form*/
+
+.edit_post{width: 1000px;
+ border: 1px solid orange;
+ ul{color:red;}
+ }
+
+#edit_post_45{
+margin-left:-50px;
+height:450px;
+margin-top:-200px;
+width:560px;
+.btn_send{margin-top:10px;
+margin-left:-50px;}
+
+}
+
+label{ 
+    text-align: left;
+    font-weight: bold;
+  	margin-bottom: -40px;
+  	margin-left:10px;
+}
+
+  
+input, textarea, select, .uneditable-input {
+    border: 1px solid #bbb;
+    margin-left:-20px;
+    width: 400px;
+    height: 250px;
+   
+    margin-bottom: 0px;
+    @include box_sizing;
+}
+  
+
+input {
+ height: auto !important;
+ width:250px;
+ margin-left:-170px;
+} 
+
+
+
+
+/*Sass’s @extend function to include the functionality of two Bootstrap classes control-group and error. As a result, on failed submission the error messages appear surrounded by red */
+
+.field_with_errors {
+  @extend .control-group;
+  @extend .error;
+}

@@ -1,0 +1,129 @@
+.dropdown_goback_activities{margin-top:-60px;}
+
+
+.projectlist{
+  width: 200px;
+  height: 250px;
+ margin-left: -15px;
+ margin-top:60px;
+  ul {
+  
+
+    li {
+      text-align:center;
+      line-height: 2;
+      margin-top:-5px;
+      font-size: 0.8;
+
+      .head{ width: 200px;
+      margin-left: -27px;}
+    }
+  }
+
+  a:hover {text-decoration:underline;
+  font-size: 0.9em;}
+ }
+
+#uses_of_donations{
+  width: 320px;
+  height: 1010px;
+  margin: 4px auto 0px -57px;
+  background-color:#FFCC66;
+  border: 1px solid white;
+  border-top-left-radius: 10px 100px;
+  border-top-right-radius: 20px 110px;
+  border-style:outset;
+  hr{border-top: 1px solid #FF8533;}
+  ul {
+    float: left;
+    list-style: none;
+
+    li {
+      line-height: 3;
+      margin-left: 10px;
+      font-size: 1.5em;
+    }
+  }
+
+  a:hover {text-decoration:underline;
+  font-size: 0.9em;}
+ 
+}
+
+#projectbody{
+  width: 650px;
+  height: auto;
+  margin-top: -257px;
+  margin-left: 210px;
+  background-color:#F8F8F7;
+  border: 1px solid #F8F8F7;
+  
+  border-style:outset;
+
+ h4{   
+   text-align: center;
+   margin-top: 5px;     
+   padding-top: 15px;
+   font-weight: bold;
+   line-height: -4;
+  }
+
+  h4{color:#995C00;
+     font-size:1.4em;
+  }
+
+
+
+  .projectboximage{ 
+  width: 650px;
+  height: 300px;
+  margin-top: 0px;
+  }
+
+  p{font-size: 1em;
+   text-align: left;
+   line-height: 1.5;
+   margin-top: -30px;
+  }
+  
+  .projectoverview{
+   width: 650px;
+   height: auto;
+   margin-top: -25px;
+   margin-left: 5px;  
+   font-size: 1.1em;
+   text-align: left;
+   padding-top: 5px;
+   line-height: 1;
+
+ 
+
+   p{letter-spacing: 1.5px;
+     margin-top:-20px;
+    }
+
+   br{line-height: 1.2;}
+  }
+}
+
+
+
+
+
+
+
+
+
+
+#cartooltip{
+ position: absolute;
+ visibility: hidden;
+ background-color: lightyellow;
+ border: 2px solid red;
+ padding: 5px;
+ font-size: 120%;
+ font-weight: bold;
+}
+
+* html #projectbody{ /*IE only style*/
+height: 400px;}

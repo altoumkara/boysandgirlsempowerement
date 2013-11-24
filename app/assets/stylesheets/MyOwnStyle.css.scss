@@ -24,11 +24,10 @@ body {
   /*header*/
   .navbar {
     position: relative;
-    
+    width: 940px;
+    margin-left: 163px;
 
    .navbar-inner {
-   width: 940px;
-    margin-left: 159px;
 
      background-color: #FF8533;
      background-image: none;
@@ -774,14 +773,7 @@ footer {
 
 
 
-/* miscellanous */
-.debug_dump {
-  clear: both;
-  float: left;
-  width: 100%;
-  margin-top: 45px;
-  @include box_sizing;   /* this line of code includes all the element  @mixin box_sizing  group which is on top*/
-}
+
 
 
 /* sidebar */

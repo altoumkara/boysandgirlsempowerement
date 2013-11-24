@@ -77,5 +77,5 @@ YoungEmpowered::Application.configure do
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  config.assets.precompile += ['MyOwnStyle.css.scss']
+  config.assets.precompile += ['MyOwnStyle.css']
 end

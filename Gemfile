@@ -34,3 +34,5 @@ group :production do
   gem 'rails_12factor'
 end
 
+require 'rbconfig'
+gem 'wdm', '>= 0.1.0' if RbConfig::CONFIG['target_os'] =~ /mswin|mingw/i

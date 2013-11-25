@@ -2,6 +2,10 @@ YoungEmpowered::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
+
+config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
+
+
   config.cache_classes = true
 
   # Eager load code on boot. This eager loads most of Rails and

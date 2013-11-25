@@ -22,10 +22,12 @@ body {
   background: #9BCDFF;
  
   /*header*/
+
+  header{margin: 0 auto;}
   .navbar {
     position: relative;
     width: 940px;
-    margin-left: 163px;
+    
 
    .navbar-inner {
 
@@ -718,14 +720,11 @@ p {
 }
 
 footer {
-  margin-top: -40px;
+  margin: -20px auto;
   width: 940px;
   height: 58px;
-  margin-left: 163px;
   border-top: 1px solid $grayMediumLight;
-  
   background: #FF8533;
-
   padding: 0px 0 25px 0;      
   -moz-box-shadow: 0 -2px 0 ;
   -webkit-box-shadow: 0 -2px 0 ;
@@ -745,7 +744,7 @@ footer {
     float: center;
     list-style: none;
     margin-left: 135px;
-    margin-top: -80px;
+    margin-top: -92px;
     li {
       float: left;
       margin-left: 50px;
@@ -755,7 +754,7 @@ footer {
     float: center;
     list-style: none;
     margin-left: -47px;
-    margin-top: -20px;
+    margin-top: -25px;
     li {
         margin-left: 50px;
         margin-top: 5px;

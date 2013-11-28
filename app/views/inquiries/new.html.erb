@@ -102,17 +102,18 @@
 	      	<p>future employement blablal blablal blablal blablal blablal blablal</p><p>future employement blablal blablal blablal blablal blablal blablal</p><p>future employement blablal blablal blablal blablal blablal blablal</p><p>future employement blablal blablal blablal blablal blablal blablal</p><p>future employement blablal blablal blablal blablal blablal blablal</p><p>future employement blablal blablal blablal blablal blablal blablal</p>
     	</div>
 
-    	<div class="group_story_element_box">
-	      	<p>Please fill out the form below and we'll get back to you shortly!</p>
-    	</div>
-
     </div> 
-    <div style="clear: left; margin-bottom: 0.8em"></div>
+
+    	<div class="story_column please_text">
+	      	<p>Please fill out the form below and we'll get back to you shortly!</p>
+	      	<%= render 'form', :inquiry => @inquiry %>
+    	</div>
+   
 
     
     
 
-<%= render 'form', :inquiry => @inquiry %>
+
 
 <div style="clear: left; margin-bottom: 1em"></div>
 

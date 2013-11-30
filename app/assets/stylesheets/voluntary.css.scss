@@ -14,10 +14,15 @@
 
 
 .voluntary_left_column{
+width: 455px;
+  height:500px;
+ margin-left:-55px;
+ margin-top:30px;
+  p{text-align:left;}
  
 	.voluntary_left_pic{
   		width: 220px;
-  		height: 160px;
+  		height: 150px;
  	}
  	.voluntary_right_pic{
  	  width: 220px;
@@ -33,7 +38,8 @@
 	width:450px;
 	height: 200px;
 	margin-left:15px;
-	margin-top:-8px;
+	
+  
 }
 
 .for_others_volunteers{
@@ -43,11 +49,18 @@
 	margin-top:10px;
 }
 
-.voluntary_group{margin-top:-67px;
-height: 330px;
+.voluntary_group{
+
+ height:250px;
+margin-top: -10px;
+
+ border:1px solid black;
 }
 
-.please_text{margin-top: -50px;}
+.please_text{
+width: 600px;
+ border:1px solid black;
+}
 
 
 
@@ -61,7 +74,7 @@ height: 330px;
 #edit_post_45{
 
 height:450px;
-margin-top:0px;
+
 width:560px;
 .btn_send{margin-top:10px;
 margin-left:-50px;}

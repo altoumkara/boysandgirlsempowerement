@@ -174,19 +174,24 @@ textarea {
 
 .slidepic{
     width: 940px;
-    height: 340px;
+    height: 510px;
     margin-left: -60px;
     margin-top:-60px;
     
-    h3, h5{
-      text-align:right;
-      width: 940px;
+
+    
+    h3{
+      text-align:center;
+      color: white;
+      width: 940px ;
+     
       height: 340px;
       margin-left: -10px;
-      margin-top:-310px;
+      margin-top:-500px;
       line-height:1.2;
       font-weight: bold;
-      text-shadow:5px 5px 10px orange;
+      text-shadow: 5px 5px 10px orange;
+
     } 
     h3{font-size:1.5em;}
 }  
@@ -241,29 +246,40 @@ textarea {
 }
 
 .how_could_help{ 
-  width: 700px;
+height: 360px;
+  width: 928px;
 }
 .how_could_they_pic{
+margin-top:-255px;
+  
   width: 260px;
-}
+ }
 
 .how_could_text{
-  width: 617px;
+  width: 665px;
   height: 270px;
-  margin-left: 270px;
-  margin-top:0px;
+  margin-left: 265px;
+  margin-top:5px;
   border-top:0px;
+   strong{ margin-left: 280px;
+   font-size:1em;
+}
+  
 }
 
 .mission{ 
   width: 928px; 
 }
 .mission_text {
-  width: 700px;
+  width: 608px;
   height: 270px;
-  margin-left: 200px;
+  margin-left: 160px;
+   margin-right: 5px;
   margin-top:-270px;
   border-top:0px;
+  
+
+  
 }
 
 .right_mission_pic{
@@ -280,19 +296,17 @@ textarea {
 
 
 .donate{
-  width: 220px;
-  height: 320px;
-  margin-top: -325px;
+  width: 150px;
+  height: 45px;
+  margin-top: -50px;
   margin-left: 650px;
-  border: 1px solid #F8F8F7;
-  border-top-left-radius: 10px 100px;
-  border-top-right-radius: 20px 110px;
-  border-style:outset;
-  text-align: left;
+  
+  
+ 
 
   form{
-   margin-top: 0px;
-   margin-left:200px;
+   margin-bottom: 0px;
+   margin-left:165px;
    height:50px;
   } 
 }
@@ -300,7 +314,7 @@ textarea {
 
 .news{ 
   width: 928px;
-  height: 323px;  
+   height: 150px;  
   margin-left: -58px;
   margin-top:8px;
   border-top:0px;
@@ -313,12 +327,14 @@ textarea {
   .head{
    width: 55px;
    background-color:#9BCDFF;
-   height: 323px;
+   height: 150px;
+
+ 
    border-style:outset;
    border: 1px solid #F8F8F7;
 
     h4{text-align: center;
-      line-height: 19;
+      line-height: 9;
       letter-spacing: 8px;
       filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
       ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
@@ -328,55 +344,12 @@ textarea {
     }
   }
 
-  hr.vertical{
-   margin-top:-200px;
-   margin-left:-5px;
-   border-right: 1px solid #FF8533;
-   width: 0px;
-   height: 200px; 
-  } 
-
-  #home_project1, #home_project2, #home_project3, #home_project4,#home_project5 {
-   border: 1px solid $grayMediumLight;
-   height:130px;
-   width: 165px;
-   background-color:#F8F8F7;
-   border: 1px solid #F8F8F7;
-   border-style:outset;
   
-
-  }
-  #home_project1{ 
+   #upcoming_event{
    margin-left: 60px;
-   margin-top:-325px;
-   border-right: 1px solid black;
-  }
-
-  #home_project2{ 
-   margin-left: 238px;
-   margin-top:-132px;
-  }
-  #home_project3{ 
-   margin-left: 413px;
-   margin-top:-132px;
-  }
-
-  #home_project4{ 
-   margin-left: 590px;
-   margin-top:-132px;
-  }
-  #home_project5{ 
-   margin-left: 763px;
-   margin-top:-132px;
-  }
-  hr.horizontal{
-   margin-top:4px;
-   border: 1px solid #FF8533;   
-  } 
-
-  #upcoming_event{
-   margin-left: 60px;
-   margin-top: 90px;
+   margin-top: -120px;
+  
+   
 
    h4{
       text-align: center;
@@ -394,16 +367,14 @@ textarea {
 
 
 #about_tables{ 
-  margin-top: 10px;
+  margin-top: 15px;
   width: 910px;
-  height: auto px;
+  height: auto;
   margin-left: -50px;
   letter-spacing: 1px;
-  border-top:0px;
-  border: 1px solid #F8F8F7;
-  border-top-left-radius: 10px 100px;
-  border-top-right-radius: 20px 110px;
-  border-style:outset;
+ 
+  
+  
   text-align: left;
   font-size:1.3em;
   width: auto\9; /* ie8 */
@@ -414,23 +385,24 @@ textarea {
     font-weight: bold;
     font-size:2em;
     color: #995C00;     
-    border-top-left-radius: 38px 100px;
-    border-top-right-radius: 50px 100px;
+    
   } 
 
   .whitespace{
     margin-top: 170px;      
     line-height: 2;
     padding: 0.3em;
+
     .leftelement{
      font-size: 0.8em;
      text-align: left;
      margin-left: 50px;
+    P{ margin-top: -50px}
     }
   }
   .rightelement{
    width: 400px;
-    height:300px;          
+           
   }
 }
 
@@ -460,15 +432,16 @@ height:100%;} */
   .activitity_overview_pic{
     width: 290px;
     height:323px;
-    margin-top:-265px;
+    margin-top:-310px;
   }
 
   .activitity_overview_text{
-   width: 650px;
-   height: 270px;
+   width: 625px;
+   height: 315px;
    margin-left: 300px;
    margin-top:0px;
    h3{ line-height: 2;}
+ 
   }
 }
  

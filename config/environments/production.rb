@@ -31,7 +31,7 @@ config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-  config.assets.compile = true
+  config.assets.compile = false
 
   # Generate digests for assets URLs.
   config.assets.digest = true
@@ -81,6 +81,6 @@ config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
   config.log_formatter = ::Logger::Formatter.new
-  config.assets.precompile += ['MyOwnStyle.css']
+  config.assets.precompile += ['myownstyle.css.scss']
 
 end
